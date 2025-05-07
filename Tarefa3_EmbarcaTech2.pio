@@ -1,6 +1,6 @@
 .pio_version 0 // only requires PIO version 0
 
-.program blinkConta
+.program Tarefa3_EmbarcaTech2
 .side_set 1
 
 .define public T1 3
@@ -39,4 +39,5 @@ static inline void Tarefa3_EmbarcaTech2_program_init(PIO pio, uint sm, uint offs
     pio_sm_set_enabled(pio, sm, true);
 }
 %}
+
 
